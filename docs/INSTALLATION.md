@@ -13,8 +13,7 @@
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd hello-world
+   git clone https://github.com/inamcode-hub/HubSpot_Twilio
    ```
 
 2. Install dependencies:
