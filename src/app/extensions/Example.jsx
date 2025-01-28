@@ -49,30 +49,6 @@ const Extension = ({ context, runServerless, sendAlert }) => {
           Click me
         </Button>
       </Flex>
-      <Divider />
-      <Text>
-        What now? Explore all available{' '}
-        <Link href="https://developers.hubspot.com/docs/platform/ui-extension-components">
-          UI components
-        </Link>
-        , get an overview of{' '}
-        <Link href="https://developers.hubspot.com/docs/platform/ui-extensions-overview">
-          UI extensions
-        </Link>
-        , learn how to{' '}
-        <Link href="https://developers.hubspot.com/docs/platform/create-ui-extensions">
-          add a new custom card
-        </Link>
-        , jump right in with our{' '}
-        <Link href="https://developers.hubspot.com/docs/platform/ui-extensions-quickstart">
-          Quickstart Guide
-        </Link>
-        , or check out our{' '}
-        <Link href="https://github.com/HubSpot/ui-extensions-react-examples">
-          code Samples
-        </Link>
-        .
-      </Text>
     </>
   );
 };
