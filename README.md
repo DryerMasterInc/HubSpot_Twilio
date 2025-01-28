@@ -35,6 +35,7 @@ hello-world/
 - [Development Guide](./docs/DEV_GUIDE.md)
 - [Production Deployment Guide](./docs/PROD_GUIDE.md)
 - [Custom Card to HubSpot CRM](./docs/HUBSPOT_CARD_GUIDE.md)
+- [Custom Card to HubSpot CRM](./docs/HUBSPOT_CARD_GUIDE.md)
 
 ---
 
