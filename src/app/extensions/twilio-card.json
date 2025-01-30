@@ -1,0 +1,16 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Twilio Card",
+    "uid": "twilio_card",
+    "location": "crm.record.tab",
+    "tab": {
+      "key": "dryermasterApps",
+      "label": "DryerMaster Apps"
+    },
+    "module": {
+      "file": "Twilio.jsx"
+    },
+    "objectTypes": [{ "name": "contacts" }]
+  }
+}
