@@ -1,18 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { hubspot } from '@hubspot/ui-extensions';
 
 import SendMessage from './twilio/send_message/SendMessage';
 
-// Define the extension to be run within the Hubspot CRM
+// Define the extension to be run within the HubSpot CRM
 hubspot.extend(({ context, runServerlessFunction, actions }) => (
-  <Extension
+  <SendMessage
     context={context}
     runServerless={runServerlessFunction}
-    sendAlert={actions.addAlert}
+    actions={actions}
   />
 ));
-
-// Define the Extension component, taking in runServerless, context, & sendAlert as props
-const Extension = ({ context, runServerless, sendAlert }) => {
-  return <SendMessage />;
-};

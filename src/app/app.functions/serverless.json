@@ -3,6 +3,18 @@
     "myFunc": {
       "file": "example-function.js",
       "secrets": []
+    },
+    "logMessage": {
+      "file": "logMessage.js",
+      "secrets": []
+    },
+    "checkPhoneNumber": {
+      "file": "twilio/checkPhoneNumber.js",
+      "secrets": []
+    },
+    "sendMessage": {
+      "file": "twilio/sendMessage.js",
+      "secrets": []
     }
   }
 }

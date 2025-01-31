@@ -11,6 +11,7 @@
     "module": {
       "file": "Twilio.jsx"
     },
-    "objectTypes": [{ "name": "contacts" }]
+    "objectTypes": [{ "name": "contacts" }],
+    "propertiesToSend": ["phone", "email", "firstname"]
   }
 }
